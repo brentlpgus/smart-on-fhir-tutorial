@@ -26,13 +26,23 @@
     <script src='./lib/js/fhir-client-cerner-additions-1.0.0.js'></script>
     <script>
       FHIR.oauth2.authorize({
-        //'client_id': 'CLIENT_ID_HERE',
-        'launch-patient.html': '62ac59e6-fd67-461a-b215-45729a19ae96',
+        'client_id': 'd6e457ad-cf74-4d99-a983-3a0c67745513',
         'scope':  'patient/Patient.read patient/Observation.read launch/patient online_access openid profile'
       });
     </script>
     <!--UserName: connie_smart 
         Password: Cerner01-->
+    <!-- 
+      New Public Sandbox Environment Details
+
+      The new public sandbox environment service root URLs:
+      DSTU2
+      https://fhir-ehr-code.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d
+      https://fhir-myrecord.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d
+      R4
+      https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d
+      https://fhir-myrecord.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d
+    -->
     <!--https://brentlpgus.github.io/smart-on-fhir-tutorial/example-smart-app/launch-patient.html?iss=https://fhir-myrecord.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d-->
     <div class="spinner">
       <div class="bounce1"></div>
